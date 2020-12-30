@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+    <meta name="renderer" content="webkit" />
+
+    <title>耻辱柱</title>
+
+    <!-- 主 CSS -->
+    <link rel="stylesheet" href="./style-public.css" type="text/css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-fixed">
+            <div class="frame-bar">
+                <h1>QQ 单机版</h1>
+            </div>
+            <div class="header" style="background-color: transparent;color: #fff;">
+                <div class="left">
+                    <a href="./index.html"><svg t="1590738115721" class="laf" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2464" width="200" height="200"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#fff" p-id="2465"></path></svg></a>
+                </div>
+                <div class="center">扫一扫</div>
+                <div class="right">
+                    <svg t="1590744458312" class="laf" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2587"><path d="M832 626.592l-128-128-128 128-256.48-256.448L192 497.632V191.872h640V626.56z m0 205.28H192V588.16l127.52-127.52L576 717.12l128-128 128 128v114.72z m0-704H128v768h768v-768h-64z" fill="#fff" p-id="2588"></path><path d="M672 319.872c-17.632 0-32 14.368-32 32 0 17.6 14.368 32 32 32 17.632 0 32-14.4 32-32 0-17.632-14.368-32-32-32m0 128c-52.928 0-96-43.072-96-96s43.072-96 96-96 96 43.072 96 96-43.072 96-96 96" fill="#fff" p-id="2589"></path></svg>
+                </div>
+            </div>
+        </div>
+        <div class="scan-container" id="js-control">
+            <div style="background: rgba(0,0,0,0.7);height: 100%;border-radius: 10px 10px 0 0;">
+                <div style="padding-top: 800px;color: #eee;text-align: center;">扫二维码 / 条码 / 小程序码</div>
+                <div style="color: #D81E06;text-align: center;font-size: 12px;padding-top: 5px;">单机版不支持扫码</div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('js-control').style.height = window.innerHeight + 'px';
+            }
+        </script>
+</body>
+
+</html>

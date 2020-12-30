@@ -1,4 +1,6 @@
 # 嗯，这个是我的期末作业
+
+> 预览：https://shangjixin.github.io/Shameful-Pole/index.html
  
 2020，一场疫情，将我们隔开。于是，我认识了他。
 

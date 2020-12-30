@@ -120,6 +120,12 @@ a {
     width: 500px;
 }
 
+@media screen and (max-width: 500px) {
+    .top-fixed {
+        width: 100%;
+    }
+}
+
 .search-bar-box {
     padding: 15px;
     background-color: #F5F6FA;
